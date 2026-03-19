@@ -1,0 +1,12 @@
+remote:
+  url: http://servicio-alumnos/buscador/alumnos
+  user: ${REMOTE_USER}
+  password: ${REMOTE_PASS}
+oauth2:
+  url: http://localhost:8080/realms/springrealm/protocol/openid-connect/token
+  clientId: springclient
+  grantType: password
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
