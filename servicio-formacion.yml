@@ -1,3 +1,5 @@
+server:
+  port: 8087
 remote:
   url: http://servicio-alumnos/buscador/alumnos
   user: ${REMOTE_USER}
